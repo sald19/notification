@@ -4,9 +4,9 @@ use Mockery as m;
 
 require_once 'Mocks/NotificationsBagMock.php';
 
-class NotificationBagTest extends PHPUnit_Framework_TestCase
+class NotificationBagTest extends \PHPUnit\Framework\TestCase
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         m::close();
     }

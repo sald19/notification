@@ -2,9 +2,9 @@
 
 use Mockery as m;
 
-class SubscriberTest extends PHPUnit_Framework_TestCase
+class SubscriberTest extends \PHPUnit\Framework\TestCase
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         m::close();
     }

@@ -2,9 +2,9 @@
 
 use Mockery as m;
 
-class NotificationTest extends PHPUnit_Framework_TestCase
+class NotificationTest extends \PHPUnit\Framework\TestCase
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         m::close();
     }

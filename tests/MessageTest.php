@@ -2,7 +2,7 @@
 
 use Mockery as m;
 
-class MessageTest extends PHPUnit_Framework_TestCase
+class MessageTest extends \PHPUnit\Framework\TestCase
 {
     public function testMessageConstructor()
     {
